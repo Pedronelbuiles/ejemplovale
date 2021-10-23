@@ -3,13 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Browser Color - Chrome, Firefox OS, Opera -->
-    <meta name="theme-color" content="#ffc2cd"> 
-    <!-- Browser Color - Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#ffc2cd"> 
-    <!-- Browser Color - iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#ffc2cd">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +12,8 @@
         body {
             background: linear-gradient(to bottom right, pink, white);
             background: -prefix-linear-gradient(left top, pink, white);
+            color: linear-gradient(to bottom right, pink, white);
+            color: -prefix-linear-gradient(left top, pink, white);
         }
         h3 {
             font-family: 'Zen Old Mincho', serif;
@@ -28,6 +23,13 @@
             font-family: 'Open Sans', sans-serif;
         }
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Browser Color - Chrome, Firefox OS, Opera -->
+    <meta name="theme-color" content="currentColor"> 
+    <!-- Browser Color - Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="currentColor"> 
+    <!-- Browser Color - iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="currentColor">
 </head>
 <body>
     
